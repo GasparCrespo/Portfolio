@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="contenido-limitado">
+        <header>
+            <nav class="navbar">
+                <h1>Gaspar Crespo.</h1>
+                <ul class="nav-links" id="nav-links">
+                    <a href="https://github.com/GasparCrespo" target="_blank" rel="noopener noreferrer" class="boton-github">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gaspar-crespo-6b057a228/" target="_blank" rel="noopener noreferrer" class="boton-linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>Linkedin</span>
+                    </a>
+                    <a href="#contacto" rel="noopener noreferrer" class="boton-contacto">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--Presentacion Inicial con foto-->
+        <!--Informacion general-->
+        <section id="presentacion" class="perfil-section">
+            <div class="texto">
+                <h2>¡Hola! Soy Gaspar 👋</h2>
+                <p>Soy estudiante de Licenciatura en Sistemas de Información de las Organizaciones, apasionado por la tecnología, el desarrollo web y el diseño. Me especializo en crear soluciones digitales funcionales y visualmente atractivas. Estoy en constante formación, buscando siempre nuevos desafíos. Mi objetivo es aportar valor y seguir creciendo profesionalmente en el mundo IT.</p>
+                <div class="links">
+                    <a href="#conocimientos">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a> 
+    
+                    <a href="#proyectos">
+                        <i class="fas fa-folder-open"></i>
+                        <span>Proyectos</span>
+                    </a> 
+    
+                    <a href="#contacto">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contactame</span>
+                    </a>
+                </div>
+            </div>
+            <div class="foto-perfil">
+                <img src="images/foto-perfil.png" alt="foto-perfil">
+            </div>
+        </section>
+        
+        <!--Conocimientos-->
+        <section id="conocimientos" class="skills-section">
+            <h2>Habilidades</h2>
+            <p>Cuento con conocimientos sólidos en desarrollo web utilizando diversos lenguajes. Me destaco por combinar habilidades técnicas con una comunicación efectiva y el trabajo en equipo. Estoy orientado a crear soluciones funcionales y eficientes que aporten valor real.</p>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="skill">
+                    <img src="images/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                <div class="skill">
+                    <img src="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-456x512-9sej0lrz.png" alt="c# logo">
+                    <span>C#</span>
+                </div>
+                <div class="skill">
+                    <img src="images/sql-logo.png" alt="sql logo">
+                    <span>SQL</span>
+                </div>
+                <div class="skill">
+                    <img src="https://static-00.iconduck.com/assets.00/github-icon-512x512-bgdhvgjm.png" alt="">
+                    <span>GitHub</span>
+                </div>
+                <div class="skill">
+                    <img src="images/javascript-logo.webp" alt="js logo">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </section>
+        
+        <!--Proyectos-->
+        <section id="proyectos" class="proyectos-section">
+            <h2>Proyectos</h2>
+            <div class="proyectos-grid">
+                <article class="proyecto">
+                    <h3>Wim Form</h3>
+                    <img src="images/wimform.png" alt="WimForm" class="foto">
+                    <p>App para la gestión de artículos de un catálogo de un comercio.</p>
+                    <P>Lenguajes: C# y SQL</P>
+                </article>
+            </div>
+        </section>
+        
+        <!--Redes-->
+        <!--<section id="redes" class="section">
+            <h2>Redes sociales</h2>
+            <div class="iconos-redes">
+                <a href="https://github.com/GasparCrespo" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gaspar-crespo-6b057a228/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </section>-->
+        
+        <!--Formulario de contacto-->
+        <section id="contacto" class="contacto-section">
+            <h2>Contactame</h2>
+            <form action="#" method="post">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu email" required>
+                <textarea name="mensaje" placeholder="Escribí tu mensaje..." rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <!--Pie de pagina-->
+    <footer>
+        <div class="footer-redes">
+            <a href="https://github.com/GasparCrespo" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gaspar-crespo-6b057a228/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2025 Gaspar Crespo - Desarrollador Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
