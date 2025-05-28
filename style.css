@@ -53,6 +53,10 @@ header{
     gap: 5px; /*Espacio entre elementos*/
 }
 
+.navbar .nav-links :hover {
+    background-color: gainsboro;
+}
+
 .nav-links a {
     text-decoration: none; 
     color: var(--background-color);
@@ -71,17 +75,6 @@ header{
     color: var(--text-color);
     background-color: var(--background-color);
 }
-
-
-/*
-.menu-toggle {
-    display: none;
-    background: none;
-    color: white;
-    font-size: 20px;
-    border: none;
-}
-*/
 
 .section {
     padding: 60px 20px;
@@ -140,13 +133,18 @@ header{
 
 
 .skills-section {
-    padding: 0 50px;
+    padding: 100px;
     margin-bottom: 100px;
 }
 
 .skills-section h2 {
     text-align: center;
     font-size: 35px;
+}
+
+.skills-section p {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .skills-section .skills-grid {
@@ -187,6 +185,7 @@ header{
 .proyectos-section h2 {
     text-align: center;
     font-size: 35px;
+    margin-bottom: 10px;
 }
 
 
@@ -217,25 +216,15 @@ header{
     border-radius: 8px;
 }
 
-/*.iconos-redes a {
-    font-size: 28px;
-    margin: 0 10px;
-    color: #111;
-    transition: color 0.3s; 
-}
-.iconos-redes a:hover {
-    color: #007bff;
-}
-*/
-
 .contacto-section{
-    padding: 0 50px;
+    padding: 50px;
     margin-bottom: 100px;
 }
 
 .contacto-section h2 {
     text-align: center;
     font-size: 35px;
+    margin-bottom: 10px;
 }
 
 .contacto-section form {
